@@ -28,8 +28,5 @@ public class ExExtra4 {
 		 System.out.println(Cinco + " nota(s) de R$5,00");
 		 System.out.println(Dois + " nota(s) de R$2,00");
 		 System.out.println(Um + " nota(s) de R$1,00");
-		 
-	}
-
-
+		 }
 }

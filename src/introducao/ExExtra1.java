@@ -6,9 +6,9 @@ public class ExExtra1 {
 	public static void main(String[] args) {
 	Scanner scan = new Scanner(System.in);
 	System.out.println("Digite o primeiro número");
-	int A = scan.nextInt();
+	float A = scan.nextFloat();
 	System.out.println("Digite o segundo número");
-	int B = scan.nextInt();
+	float B = scan.nextFloat();
 	
 	float Soma = A + B;
 	System.out.println("A soma de " + A + " e " +  B + " é " + Soma);
@@ -17,6 +17,6 @@ public class ExExtra1 {
 	float Mult = A * B;
 	System.out.println("A multiplicação de " + A + " e " +  B + " é " + Mult);
 	float Div = A / B;
-	System.out.printf("A divisão de " + A + " e " +  B + " é %.3f %n" , Div);
+	System.out.printf("A divisão de " + A + " e " +  B + " é %.3f" , Div);
 }
 }

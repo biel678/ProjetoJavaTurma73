@@ -13,8 +13,6 @@ public class ExExtra3 {
 		 segundo =segundo% 3600;
 		 minuto = (segundo/60);	
 		 segundo = segundo% 60;
-		 
-		
 		System.out.println(hora + ":" + minuto + ":" + segundo);
 	}
 
