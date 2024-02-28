@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ExCondicionais1 {
 
 	public static void main(String[] args) {
-		float a, b , c, soma;
+		float a, b, c, soma;
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Digite o valor A");
 		a = scan.nextFloat();
@@ -23,6 +23,7 @@ public class ExCondicionais1 {
 		if (soma == c) {
 			System.out.println("A soma de A + B é Igual do que C");
 		}
+		scan.close();
 	}
 
 }

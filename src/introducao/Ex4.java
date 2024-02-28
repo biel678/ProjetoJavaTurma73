@@ -16,5 +16,6 @@ public class Ex4 {
 		float N4 = scan.nextFloat();
 		float Calculo = (N1 * N2) - (N3 * N4);
 		System.out.println("A diferença é de: " + Calculo);
+		scan.close();
 	}
 }

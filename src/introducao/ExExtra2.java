@@ -11,5 +11,6 @@ public class ExExtra2 {
 		float raio = scan.nextFloat();
 		float area = pi * (raio * raio);
 		System.out.printf("A área é de: %.4f %n" , area);
+		scan.close();
 		}
 }

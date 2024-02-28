@@ -13,7 +13,7 @@ public class Ex01 {
 		float abono = scan.nextFloat();
 		float NovoSalario = salario + abono;
 		System.out.println("Seu novo salário é de: " + NovoSalario);
-		
+		scan.close();
 	}
 
 }

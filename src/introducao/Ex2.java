@@ -18,6 +18,7 @@ public class Ex2 {
 		float media = (N1 + N2 + N3 + N4)/4;
 		
 		System.out.println("sua média final é " + media);
+		scan.close();
 	}
 
 }

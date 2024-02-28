@@ -12,16 +12,17 @@ public class ExCondicionais3 {
 		int idade = scan.nextInt();
 		System.out.println("É sua primeira doação? (true/false)");
 		boolean doacao = scan.nextBoolean();
-		
-		if(idade>=60 && idade<=69 && doacao == false) {
+
+		if (idade >= 60 && idade <= 69 && doacao == false) {
 			System.out.println(nome + " está apto para doar sangue!");
-		}else if(idade>=60 && idade<=69 && doacao == true) {
+		} else if (idade >= 60 && idade <= 69 && doacao == true) {
 			System.out.println(nome + " não está apto para doar sangue!");
-		}else if(idade<18 || idade>69) {
+		} else if (idade < 18 || idade > 69) {
 			System.out.println(nome + " não está apto para doar sangue!");
-		}else if(idade>=18 && idade<60) {
+		} else if (idade >= 18 && idade < 60) {
 			System.out.println(nome + " está apto para doar sangue!");
 		}
+		scan.close();
 	}
 
 }

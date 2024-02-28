@@ -18,5 +18,6 @@ public class ExExtra1 {
 	System.out.println("A multiplicação de " + A + " e " +  B + " é " + Mult);
 	float Div = A / B;
 	System.out.printf("A divisão de " + A + " e " +  B + " é %.3f" , Div);
+	scan.close();
 }
 }

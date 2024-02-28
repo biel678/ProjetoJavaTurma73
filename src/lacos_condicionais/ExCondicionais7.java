@@ -14,7 +14,7 @@ public class ExCondicionais7 {
 		int codigo = scan.nextInt();
 		float operacao = 0;
 		String ops = null;
-		switch(codigo) {
+		switch (codigo) {
 		case 1:
 			ops = " + ";
 			operacao = num1 + num2;
@@ -35,7 +35,10 @@ public class ExCondicionais7 {
 			operacao = num1 / num2;
 			System.out.println(num1 + ops + num2 + " = " + operacao);
 			break;
-		default: System.out.println("Operação invalida!");;
+		default:
+			System.out.println("Operação invalida!");
+			;
 		}
+		scan.close();
 	}
 }

@@ -12,7 +12,7 @@ public class ExCondicionais6 {
 		String nome = scan.nextLine();
 		System.out.println("Digite o código do seu cargo de 1 a 6: ");
 		int codigo = scan.nextInt();
-		switch(codigo) {
+		switch (codigo) {
 		case 1:
 			System.out.println("Você escolheu: Gerente");
 			cargo = "Gerente";
@@ -54,5 +54,6 @@ public class ExCondicionais6 {
 		float salario = scan.nextFloat();
 		float SalarioFinal = salario + (salario * reajuste);
 		System.out.println("Olá " + nome + " seu Cargo é: " + cargo + " e o valor final foi de: " + SalarioFinal);
+		scan.close();
 	}
 }

@@ -10,9 +10,9 @@ public class ExCondicionais8 {
 		System.out.println("1 - saldo");
 		System.out.println("2 - saque");
 		System.out.println("3 - depósito");
-		float saldo =1000f;
+		float saldo = 1000f;
 		int codigo = scan.nextInt();
-		switch(codigo) {
+		switch (codigo) {
 		case 1:
 			System.out.println("Operação escolhida: Saldo");
 			System.out.println("O saldo é de: " + saldo);
@@ -20,15 +20,15 @@ public class ExCondicionais8 {
 		case 2:
 			System.out.println("Digite o valor que deseja sacar:");
 			float saque = scan.nextFloat();
-			if(saque>saldo) {
+			if (saque > saldo) {
 				System.out.println("Sem saldo suficiente para o saque, por favor tente novamente.");
-			}else {
-			float ValorFinalS = saldo - saque;
-			System.out.println("Operação escolhida: Saque");
-			System.out.println("Saldo atual: " + ValorFinalS);
+			} else {
+				float ValorFinalS = saldo - saque;
+				System.out.println("Operação escolhida: Saque");
+				System.out.println("Saldo atual: " + ValorFinalS);
 			}
 			break;
- 		case 3:
+		case 3:
 			System.out.println("Digite o valor que deseja depositar:");
 			float deposito = scan.nextFloat();
 			float ValorFinalD = saldo + deposito;
@@ -36,7 +36,10 @@ public class ExCondicionais8 {
 			System.out.println("Saldo atual: " + ValorFinalD);
 			break;
 
-		default: System.out.println("Operação invalida!");;
+		default:
+			System.out.println("Operação invalida!");
+			;
 		}
+		scan.close();
 	}
 }

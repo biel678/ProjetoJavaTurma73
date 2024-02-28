@@ -10,7 +10,7 @@ public class ExCondicionais5 {
 		String produto = null;
 		System.out.println("Digite uma opção do cardápio de 1 a 6: ");
 		int opcao = scan.nextInt();
-		switch(opcao) {
+		switch (opcao) {
 		case 1:
 			System.out.println("Você escolheu: Cachorro quente");
 			produto = "Cachorro quente";
@@ -46,5 +46,6 @@ public class ExCondicionais5 {
 		int quantidade = scan.nextInt();
 		float ValorTotal = quantidade * preco;
 		System.out.println("Seu produto escolhido foi: " + produto + " e o valor final foi de: " + ValorTotal);
+		scan.close();
 	}
 }

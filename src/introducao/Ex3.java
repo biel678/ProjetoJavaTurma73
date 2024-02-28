@@ -18,7 +18,7 @@ public class Ex3 {
 		float SalarioLiquido = SalarioBruto + AdicionalNoturno + (HorasExtras *5) - Descontos;
 		
 		System.out.println("Seu salário líquido é de: " + SalarioLiquido);
-
+		scan.close();
 	}
 
 }
