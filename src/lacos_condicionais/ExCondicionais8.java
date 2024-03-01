@@ -38,7 +38,6 @@ public class ExCondicionais8 {
 
 		default:
 			System.out.println("Operação invalida!");
-			;
 		}
 		scan.close();
 	}
