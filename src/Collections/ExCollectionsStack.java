@@ -23,7 +23,8 @@ public class ExCollectionsStack {
 			System.out.println("");
 			if (opcao == 1) {
 				System.out.println("Digite o nome do livro para colocar na pilha:");
-				pilha.push(scan.next());
+				scan.skip("\\R?");
+				pilha.push(scan.nextLine());
 				System.out.println("\nLivro Adicionado!");
 				System.out.println("");
 			} else if (opcao == 2) {
